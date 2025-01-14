@@ -181,7 +181,7 @@ class VideoContentSetup {
 
     this.preloadVideoPoster(content, content.data.msrc);
 
-    content.element.style.position = 'absolute';
+    content.element.style.position = 'relative';
     content.element.style.left = 0;
     content.element.style.top = 0;
     
